@@ -1,0 +1,62 @@
+[29-Dec-2017 21:44:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 3
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 21:44:19 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 21:44:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 35
+[29-Dec-2017 21:44:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 39
+[29-Dec-2017 21:44:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 42
+[29-Dec-2017 21:44:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 43
+[29-Dec-2017 21:45:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 3
+[29-Dec-2017 21:45:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 35
+[29-Dec-2017 21:45:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 39
+[29-Dec-2017 21:45:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 42
+[29-Dec-2017 21:45:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 43
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:24:50 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:41 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 16
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Undefined offset: 0 in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[29-Dec-2017 22:30:46 UTC] PHP Notice:  Trying to get property of non-object in /home/uly1m40dshe7/public_html/hostel/hostel_final/registration/reg_sort.php on line 21
+[30-Dec-2017 21:35:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 21:35:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 21:35:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 21:37:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 21:37:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 21:37:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 21:51:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 21:51:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 21:51:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 22:07:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 22:07:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 22:07:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 22:54:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 22:54:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 22:54:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 23:15:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 23:15:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 23:15:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 23:18:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 23:18:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 23:18:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8
+[30-Dec-2017 23:22:45 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 4
+[30-Dec-2017 23:22:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 6
+[30-Dec-2017 23:22:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/registration/final/sort_all1.php on line 8

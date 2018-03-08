@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>header</title>
+	<style type="text/css">
+	#page-wrapper {
+    padding-top: 3.5em;
+  }
+  #header {
+    background: rgba(0,0,0,0.7);
+    cursor:default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+  }
+  .hover{
+  text-decoration: none;
+  
+}
+.hover:hover{
+  text-decoration: underline;
+}
+.hover:active{
+  transform: translateY(2px);
+}
+
+  #header h1 {
+      height: inherit;
+      left: 1.25em;
+      line-height: inherit;
+      letter-spacing: 1em;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      color: white;
+  }
+
+    #header nav {
+      position: absolute;
+      right: 1em;
+      top: 0;
+      color: white;
+    }
+
+      #header nav ul {
+        margin: 0;
+      }
+
+        #header nav ul li {
+          display: inline-block;
+          margin-left: 2em;
+        }
+
+          #header nav ul li a, #header nav ul li span {
+            border: 0;
+            color: inherit;
+            display: inline-block;
+            height: inherit;
+            line-height: inherit;
+            outline: 0;
+         }
+	</style>
+</head>
+<body>
+	<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<!--<h1 id="logo" color="white"><a href="hostel_accommodation.html">HOSTEL</a></h1>-->
+					<a href="Main.html"><h1 color="white">HOSTEL</h1></a>
+					<nav id="nav">
+						<ul>
+							<li><a class="hover" href="#" ; ">LOGIN</a></li>
+							<li>
+								<a class="hover" href="#">STUDENT REGISTRATION</a>
+							</li>
+							
+						</ul>
+					</nav>
+				</header>
+		</div>
+
+</body>
+</html>

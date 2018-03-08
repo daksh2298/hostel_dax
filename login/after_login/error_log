@@ -1,0 +1,78 @@
+[30-Dec-2017 21:53:15 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 21:53:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 18
+[30-Dec-2017 21:53:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 20
+[30-Dec-2017 21:53:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 23
+[30-Dec-2017 21:56:31 UTC] PHP Parse error:  syntax error, unexpected ''.</a></li>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/uly1m40dshe7/public_html/hostel1/login/after_login/accommodation2.php on line 102
+[30-Dec-2017 21:56:40 UTC] PHP Parse error:  syntax error, unexpected ''.</a></li>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/uly1m40dshe7/public_html/hostel1/login/after_login/accommodation2.php on line 102
+[30-Dec-2017 21:56:51 UTC] PHP Parse error:  syntax error, unexpected ''.</a></li>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/uly1m40dshe7/public_html/hostel1/login/after_login/accommodation2.php on line 102
+[30-Dec-2017 21:57:32 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 21:57:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 18
+[30-Dec-2017 21:57:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 20
+[30-Dec-2017 21:57:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 23
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 18
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 20
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 23
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 30
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 32
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 36
+[30-Dec-2017 22:03:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 38
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 18
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 20
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 23
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 30
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 32
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 36
+[30-Dec-2017 22:30:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 38
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 19
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 21
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 24
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 31
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 33
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 37
+[30-Dec-2017 22:33:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 39
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 19
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 21
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 24
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 31
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 33
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 37
+[30-Dec-2017 22:34:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 39
+[30-Dec-2017 22:34:38 UTC] PHP Notice:  Undefined variable: sea in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 42
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 19
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 21
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 24
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 31
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 33
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 37
+[30-Dec-2017 22:34:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 39
+[30-Dec-2017 22:34:46 UTC] PHP Notice:  Undefined variable: sea in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 42
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 19
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 21
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 24
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 31
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 33
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 37
+[30-Dec-2017 22:36:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 39
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 11
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 13
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 16
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 23
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 25
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 29
+[30-Dec-2017 22:39:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 31
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'daksh'@'localhost' to database 'Hostel' in /home/uly1m40dshe7/public_html/hostel1/login/dbh.php on line 8
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 11
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 13
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 17
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 24
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 26
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 30
+[30-Dec-2017 22:41:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 32
+[11-Jan-2018 18:39:07 UTC] PHP Notice:  Undefined index: email in /home/uly1m40dshe7/public_html/hostel1/login/after_login/status.php on line 15

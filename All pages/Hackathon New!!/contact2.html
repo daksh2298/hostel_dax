@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<? include('hach.php');?>
+<html>
+<head>
+	<title>CONTACT US</title>
+	<link rel="stylesheet" href="accommodation2.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="hack.css">
+</head>
+
+<body>
+	<div id="page-wrapper">
+
+      <!-- Header -->
+        <header id="header" opacity="0.3">
+          <h1 color="white">HOSTEL</h1>
+          <nav id="nav">
+            <ul>
+              <li><a href="accommodation2.html">Hostel Accommodation</a></li>
+              <li>
+                <a href="#">Status</a>
+              </li>
+              <li><a href="contact2.html">Contact Us</a></li>
+              <li><a href="#" class="button special">Log Out</a></li>
+            </ul>
+          </nav>
+        </header>
+    </div>
+<!--content-->
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h2 style="text-align:center;">Contact Us</h2>
+  
+	<!--<h1>LDRP Institute of Technology And Research</h1><br>-->
+	<h4>ADRRESS:</h4>
+	<p>Sector - 15,</p>
+	<p>Near KH - 5</p>
+	<p>Gandhinagar - 382015</p>
+	<p>Gujarat - India</p><br>
+	
+	<h4>E-MAIL:</h4>
+	<p>info@ldrp.ac.in</p><br>
+	<h4>Telephone: </h4>
+	<p>+ 91 - 07923241492</p><br>
+	<h4>Fax:</h4>
+	<p>+ 91 - 07923241493</p><br>
+	
+<!--form-->
+	<div class="main">
+		<div class="info"><img src="pic8.jpg"></div>
+			<form action="<?= $_server['php_self']; ?>" method="post" name="form" class="form-box">
+				<label> FULL NAME:</label><br>
+				<input type="text" name="name" class="inp" placeholder="your full name..." required><br>
+				<label> EMAIL:</label><br>
+				<input type="text" name="email" class="inp" placeholder="your email address..." required><br>
+				<label> PHONE NO:</label><br>
+				<input type="text" name="phone" class="inp" placeholder="your phone..." required><br>
+				<label> MESSAGE:</label><br>
+				<textarea name="message" id="msg-box" placeholder="your text..."></textarea><br>
+				<input type="submit" name="submit" value="SEND" class="sub-btn">
+			</form>
+	</div>
+	
+	<div class="footer">
+  <a href="#"><i class="fa fa-facebook-official " style="font-size:30px;color:#3b5998"></i></a>&nbsp;&nbsp;
+  <a href="#"><i class="fa fa-twitter " style="font-size:30px;color:#1da1f2"></i></a>&nbsp;&nbsp;
+  <a href="#"><i class="fa fa-instagram " style="font-size:30px;color:#c13584"></i></a>&nbsp;&nbsp;
+  <a href="#"><i class="fa fa-google-plus " style="font-size:30px;color:#dd4b39"></i></a>&nbsp;&nbsp;
+  <a href="#"><i class="fa fa-skype " style="font-size:30px;color:#00aff0"></i></a>
+</div>
+
+</body>
+</html>

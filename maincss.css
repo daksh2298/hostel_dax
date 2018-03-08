@@ -1,0 +1,199 @@
+body{
+  font-family: Times New Roman;
+  background: black;
+  opacity: 0.8;
+  background-attachment: fixed;
+  height: 200%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* Header */
+  #page-wrapper {
+    padding-top: 3.5em;
+  }
+  #header {
+    background: rgba(0,0,0, 0.7);
+    cursor:default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+  }
+
+  #header h1 {
+      height: inherit;
+      left: 1.25em;
+      line-height: inherit;
+      letter-spacing: 1em;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      color: white;
+  }
+
+    #header nav {
+      position: absolute;
+      right: 1em;
+      top: 0;
+      color: white;
+    }
+
+      #header nav ul {
+        margin: 0;
+      }
+
+        #header nav ul li {
+          display: inline-block;
+          margin-right: 2em;
+        }
+
+          #header nav ul li a, #header nav ul li span {
+            border: 0;
+            color: inherit;
+            display: inline-block;
+            height: inherit;
+            line-height: inherit;
+            outline: 0;
+         }
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    padding: 1rem;
+    background-color: (255,255,255,0.7);
+    text-align: left;
+    width:18%;
+}
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {
+   width: 1000px;
+  height: 500px;
+  vertical-align: middle;}
+.hover{
+  text-decoration: none;
+  border-left: 1px dotted white;
+  
+}
+.hover:hover{
+  text-decoration: underline;
+}
+.hover:active{
+  transform: translateY(2px);
+}
+/* Slideshow container */
+.slideshow-container {
+
+  height: 500px;
+  width: 1000px;
+  position: relative;
+  margin-top: 2em;
+  margin-left:10em; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,0,0,0.7);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #2f2f2f;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  .ins{
+    width:100%; 
+    margin-left:10em;
+    color:white;
+    margin-top: 3em;
+    height:300px; 
+  }
+  .ins2{
+    font-size: 1.5em;
+  }
+.link2{
+  color:#e44c65;
+  text-decoration: none;
+}
