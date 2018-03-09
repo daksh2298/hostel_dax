@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
  ?>
 <html>
@@ -9,7 +9,7 @@ session_start();
 	</head>
 	<body>
 <?php
-  if(isset($_SESSION['email'])){
+  if(isset($_SESSION['email']) || isset($_SESSION['username'])){
     header("Location: login/after_login/accommodation2.php");
   }else{
 		echo '<div id="page-wrapper">
@@ -24,7 +24,7 @@ session_start();
 							<i class="fa fa-user" style="color:#e44c65; font-size:30px;"></i>&nbsp<li>
 								<a class="hover" href="registration/Reg_final.html">STUDENT REGISTRATION</a>
 							</li>
-							
+
 						</ul>
 					</nav>
 				</header>
@@ -68,11 +68,11 @@ session_start();
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
 </div>
 <!--Instructions-->
 <img src="ins.jpg" style="width: 175px;height: 175px;margin-top: 4em; margin-left:10em;">
@@ -116,18 +116,18 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
-		
+
 	</body>
 </html>

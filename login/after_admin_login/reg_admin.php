@@ -17,7 +17,7 @@ session_start();
         <header id="header" opacity="0.3">
           <h1 color="white">HOSTEL</h1>
           <nav id="nav">
-            <ul>            
+            <ul>
              <li><form action="logout.php" method="POST">
                <button class="button special" name="logout" type="submit">Log Out</button>
              </form></li>
@@ -26,7 +26,7 @@ session_start();
         </header>
     </div><br><br><center>
     <nav id="nav" class="nav">
-            <ul>            
+            <ul>
              <form action="reg_admin.php" method="POST">
              	<li><button type="submit" class="button special" name="view">View List</button></li>
              	<li><button type="submit" class="button special" name="final">Final List</button></li>
@@ -35,13 +35,13 @@ session_start();
             <li><fieldset style="width: 320px;">
               <legend style="color: black; font-size: 18px;">Filter</legend>
               <li><button type="submit" name="filter" class="button special">Filter List ==></button>&nbsp;&nbsp;
-              
+
             <select name="gender">
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
               </li>
-            </fieldset>    
+            </fieldset>
             </li>
              </form>
             </ul>
@@ -84,14 +84,10 @@ function sort_print(){
 	include 'final/variables.php';
 	include '../dbh.php';
 
-	//$conn=mysqli_connect('localhost','daksh','daksh2298','Hostel_final');
-	
     $sql="TRUNCATE TABLE merit_sort;";
 	$run=mysqli_query($conn,$sql);
-	
-	//if(isset($_POST['sort'])){
+
 		sort_print_all();
-	//}else if(isset($_POST['final'])){
 }
 function final_insert_print(){
 
@@ -102,11 +98,11 @@ function final_insert_print(){
 
 	$sql="TRUNCATE TABLE merit_sort;";
 	$run=mysqli_query($conn,$sql);
-	
+
 
 	$sql="TRUNCATE TABLE merit_final;";
 	$run=mysqli_query($conn,$sql);
-	
+
 	$sql="TRUNCATE TABLE merit_waiting;";
 	$run=mysqli_query($conn,$sql);
 
@@ -119,7 +115,7 @@ function final_insert_print(){
 		$sql="SELECT * from merit_sort where Merit_Rank='$i';";
 		$run=mysqli_query($conn,$sql);
 		$arr=mysqli_fetch_assoc($run);
-		
+
 		$Merit_Rank=$arr['Merit_Rank'];
 		$G_ID=$arr['G_ID'];
 		$name=$arr['Name'];
@@ -130,102 +126,100 @@ function final_insert_print(){
 		$percentage=$arr['Percentage'];
 		$quota=$arr['Quota'];
 		$score=$arr['Score'];
-		
+
 		if($gender=="male"){
-			//echo "<br>"."MALE_TEST"."<br>";
+
 			if($quota=="gen"){
-				//echo "<br>"."MALE_GEN_TEST"."<br>";
+
 				if($count['male_gen']<=$gen_m){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_gen']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_gen']++;
 				}
 			}
 			else if($quota=="obc"){
-				//echo "<br>"."MALE_OBC_TEST"."<br>";
-					
+
+
 				if($count['male_obc']<=$obc_m){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_obc']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_obc']++;
 				}
 			}
 			else if($quota=="sc"){
-				//echo "<br>"."MALE_SC_TEST"."<br>";
-					
+
 				if($count['male_sc']<=$sc_m){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_sc']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['male_sc']++;
 				}
 			}
 		}else if($gender=="female"){
-				//echo "<br>"."FEMALE_TEST"."<br>";
+
 			if($quota=="gen"){
-				//echo "<br>"."FEMALE_GEN_TEST"."<br>";
-					
+
+
 				if($count['female_gen']<=$gen_fm){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['female_gen']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['female_gen']++;
 				}
 			}
 			else if($quota=="obc"){
-				//echo "<br>"."FEMALE_OBC_TEST"."<br>";
-					
+
+
 				if($count['female_obc']<=$obc_fm){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['female_obc']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
-					$count['female_obc']++;	
+					$count['female_obc']++;
 				}
 			}
 			else if($quota=="sc"){
-				//echo "<br>"."FEMALE_SC_TEST"."<br>";
-					
+
 				if($count['female_sc']<=$sc_fm){
-					
-					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+
+					$sql="INSERT INTO merit_final (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['female_sc']++;
 				}else{
-					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score) 
-					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');"; 
+					$sql="INSERT INTO merit_waiting (Merit_Rank,G_ID,Name,City,Distance,Contact,Gender,Percentage,Quota,Score)
+					VALUES ('$Merit_Rank','$G_ID','$name','$city','$distance','$contact','$gender','$percentage','$quota','$score');";
 					mysqli_query($conn,$sql);
 					$count['female_gen']++;
 				}
@@ -235,9 +229,9 @@ function final_insert_print(){
 	if(isset($_POST['final'])){
 		final_print();
 	}
-	
-	echo "</table>"; 
+
+	echo "</table>";
 }
 
 
-?>	
+?>
